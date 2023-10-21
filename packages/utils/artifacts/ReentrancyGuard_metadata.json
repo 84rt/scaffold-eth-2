@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "This code defines a ReentrancyGuard abstract contract, which is a mechanism to prevent reentrancy attacks. Reentrancy is a common attack where a malicious contract can repeatedly call a function in the victim contract in a way that the state of the victim contract has not been updated yet, and this can lead to unintended consequences, such as draining funds from the victim contract.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"utils/ReentrancyGuard.sol": "ReentrancyGuard"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"utils/ReentrancyGuard.sol": {
+			"keccak256": "0x4d6d2eb21097f38af30586c16da64ba3fdbe32d448219489968ead8e8c952cd7",
+			"license": "AGPL-3.0-only",
+			"urls": [
+				"bzz-raw://cff047182d8c451891656a7593b9cf9845ac3bf36d13f140a2a0a23459cced05",
+				"dweb:/ipfs/QmRuUm7cVqQgrJSsSb8Hth4ny8EYxkpSwyBi9C3CP9burQ"
+			]
+		}
+	},
+	"version": 1
+}
